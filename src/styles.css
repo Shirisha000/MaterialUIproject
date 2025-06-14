@@ -1,0 +1,86 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  /* background-color:#d4a373;
+  color:#432818; */
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.Title {
+  background-color: darkgoldenrod;
+  height: 100px;
+  width: 100%;
+}
+
+.Title h1 {
+  padding: 20px;
+  max-width: 1200px;
+  font-weight: 500px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: black;
+}
+
+.heading {
+  padding: 20px 0px;
+}
+
+.form button {
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+}
+.form input {
+  border-radius: 5px;
+  height: 50px;
+  width: 500px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.item-box {
+  background-color: #fffbd4;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-box h3 {
+  margin: 0 0 5px;
+}
+
+.item-box p {
+  margin: 0 0 10px;
+}
+
+.item-box button {
+  background-color: #ff6961;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contentarea textarea {
+  width: 500px;
+}
